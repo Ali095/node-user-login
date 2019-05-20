@@ -1,0 +1,35 @@
+{
+  "name": "node-user-login",
+  "version": "1.0.0",
+  "description": "simple login using passport",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ali095/node-user-login.git"
+  },
+  "author": "Hassan Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ali095/node-user-login/issues"
+  },
+  "homepage": "https://github.com/Ali095/node-user-login#readme",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "connect-flash": "0.1.1",
+    "ejs": "2.6.1",
+    "express": "4.17.0",
+    "express-ejs-layouts": "2.5.0",
+    "express-session": "1.16.1",
+    "mongoose": "5.5.9",
+    "nodemon": "1.19.0",
+    "passport": "0.4.0",
+    "passport-local": "1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.0"
+  }
+}
